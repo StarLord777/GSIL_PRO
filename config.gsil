@@ -1,0 +1,12 @@
+[mail]
+host : smtp.qq.com
+port : 25
+mails : 1692@qq.com
+from : GSIL
+password : ksyuehjh
+to : 1672@qq.com
+cc : feei@feei.cn
+
+[github]
+clone : false
+tokens : 15a54703c89

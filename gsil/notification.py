@@ -44,7 +44,7 @@ class Notification(object):
         :param html:
         :return:
         """
-        text = str(MIMEText(html, 'html', 'utf-8'))
+        text = html
         filepath = "/root/"+str(self.subject)+".html"
         with open(filepath,'w') as f:
 	        f.write(text)
